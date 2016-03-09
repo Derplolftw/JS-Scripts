@@ -9,5 +9,11 @@ function log(text,type) {
     case "important":
       console.log("IMPORTANT: " + text)
     break;
+    case "debug":
+      console.log("DEBUG: " + text)
+    break;
+    default:
+      console.log(text)
+    break;
   }
 }
